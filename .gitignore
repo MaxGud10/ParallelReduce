@@ -14,6 +14,11 @@ bench/reports/*
 *.dylib
 *.dll
 *.exe
+.venv
+CMakeLists.txt
+CMakeUserPreserts.json
+third_part
+
 
 compile_commands.json
 .cache/
