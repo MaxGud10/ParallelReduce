@@ -169,7 +169,3 @@ int main(int argc, char **argv)
         return 1;
     }
 }
-
-// ./build/reduce_run --mode seq --type int64 < tests/e2e/generated/test_100.dat
-// ./build/reduce_run --mode par --type int64 --threads 8 < tests/e2e/generated/test_100.dat
-// ./build/reduce_run --mode par --type double --threads 8 --min-block-size 4096 < tests/e2e/generated/test_double.dat

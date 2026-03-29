@@ -16,9 +16,8 @@ bench/reports/*
 *.exe
 .venv
 CMakeLists.txt
-CMakeUserPreserts.json
 third_part
-
+CMakeUserPresets.json
 
 compile_commands.json
 .cache/

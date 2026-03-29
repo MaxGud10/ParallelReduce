@@ -260,9 +260,3 @@ int main(int argc, char **argv)
         return 1;
     }
 }
-
-// ./build/reduce_bench --type int64 --threads 8 < tests/e2e/generated/test_100.dat
-// ./build/reduce_bench --type double --threads 8 --min-block-size 4096 < tests/e2e/generated/test_double.dat
-
-// ./build/reduce_bench --type int64 --threads 8 < tests/e2e/generated/test_100.dat
-// ./build/reduce_bench --type double --threads 8 --min-block-size 4096 < tests/e2e/generated/test_double.dat
