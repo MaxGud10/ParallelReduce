@@ -92,6 +92,8 @@ cmake --build build
 
 <details>
 <summary> Подробнее что значат</summary>
+
+
 | Аргумент | Что делает |
 |---|---|
 | `--mode seq` | Запускает последовательный reduce |
@@ -100,7 +102,11 @@ cmake --build build
 | `--type double` | Обрабатывает числа с плавающей точкой |
 | `--threads N` | Число потоков для режима `par` |
 | `--min-block-size N` | Минимальный размер блока на один worker |
+
+
 </details>
+
+
 
 ### `reduce_bench`
 Режим benchmark.
@@ -112,12 +118,16 @@ cmake --build build
 
 <details>
 <summary> Подробнее что значат</summary>
+
+
 | Аргумент | Что делает |
 |---|---|
 | `--type int64` | Бенчмарк для целых чисел |
 | `--type double` | Бенчмарк для вещественных чисел |
 | `--threads N` | Число потоков для `my_reduce_par` |
 | `--min-block-size N` | Минимальный размер блока на worker |
+
+
 </details>
 
 ### Формат входных данных
