@@ -15,8 +15,9 @@ bench/reports/*
 *.dll
 *.exe
 .venv
-third_part
+third_party
 CMakeUserPresets.json
+draft.hpp
 
 compile_commands.json
 .cache/
