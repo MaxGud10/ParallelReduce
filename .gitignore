@@ -15,7 +15,6 @@ bench/reports/*
 *.dll
 *.exe
 .venv
-CMakeLists.txt
 third_part
 CMakeUserPresets.json
 
