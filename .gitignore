@@ -2,11 +2,6 @@ build/
 out/
 dist/
 
-bench/data/*
-bench/reports/*
-!bench/data/.gitkeep
-!bench/reports/.gitkeep
-
 *.o
 *.obj
 *.a
@@ -26,5 +21,3 @@ compile_commands.json
 __pycache__/
 .pytest_cache/
 
-tests/e2e/generated/*
-!tests/e2e/generated/.gitkeep
